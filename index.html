@@ -1,41 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Acril Tec</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>mi primera página</title>
-    <link rel="stylesheet" href="/mystyle.css">
-</head>
+  <!-- HEADER + NAVbar (Andre)-->
+ 
 
-<nav>
-    <ul>
-        <td><a href="/index.html">Inicio</a></td>
-        <td><a href="/productos.html">Productos</a></td>
-        <td><a href="/contactos.html">Contáctanos</a></td>
-        <td><a href="/servicios.html">Servicios</a></td>
-    </ul>
-</nav>
+  <body>
 
-<body>
-    <h1>titulo de la pagina</h1>
-    <br>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non similique dolor quo nostrum! Tempore facilis cum
-        accusantium quo repellat fuga! Repellendus ducimus dolorum excepturi cumque ex laborum ipsum recusandae sed!</p>
-    <h2>Nuestro equipo:</h2>
-    <img src="/avatar.png" alt="avatar1">
-    <p>Admin1</p>
-    <h2>vamos</h2>
-    <h3>poniendo</h3>
-    <h4>cualquier</h4>
-    <h5>titulo</h5>
-    <h6>abrrrr</h6>
-    <p>
-        prrafo de texto
-        de prueba para paginas web y sitios estaticos
-    </p>
+    
+  <header class="header1">
+    <div class="logo" id="inicio">
+        <img src="logo principal.png" alt="logo de marca" width=25% height=auto>
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li class="link"><a href="#inicio">Inicio</a></li>
+            <li class="link"><a href="#about">Quienes somos</a></li>
+            <li class="link"><a href="#productos">Productos</a></li>
+        </ul>
+    </nav>
+    <a href="#contacto" class="btn"><button>Contacto</button></a>
+</header>
+<br>
+<section id="about">
+
+    <div class="acriltec-section">
+        <h1 class="acriltec-title">
+            Acril Tec: Forjando Transparencia y Futuro
+        </h1>
+
+        <div class="acriltec-mission-vision-wrapper">
+            <div class="acriltec-block acriltec-mission">
+                <h2 class="acriltec-subtitle">Nuestra Misión</h2>
+                <p>
+                    En <strong class="acriltec-company-highlight">Acril Tec</strong>, nuestra misión es ser los aliados creativos e industriales de nuestros clientes, transformando sus ideas en soluciones de acrílico de la más alta calidad. Nos dedicamos a la fabricación y comercialización de productos innovadores que combinan diseño, durabilidad y funcionalidad, aportando valor estético y práctico a cada proyecto. Impulsamos la excelencia operativa y un servicio al cliente excepcional para superar constantemente las expectativas y construir relaciones duraderas.
+                </p>
+            </div>
+
+            <div class="acriltec-block acriltec-vision">
+                <h2 class="acriltec-subtitle">Nuestra Visión</h2>
+                <p>
+                    Aspiramos a consolidar a <strong class="acriltec-company-highlight">Acril Tec</strong> como la empresa líder y referente en la industria del acrílico en la región y a nivel nacional. Seremos reconocidos por nuestra capacidad de innovación constante, la calidad insuperable de nuestros productos y nuestro compromiso con la sostenibilidad y la responsabilidad social. Buscamos expandir nuestras fronteras, explorar nuevas aplicaciones del acrílico y ser el socio estratégico preferido para cualquier necesidad que requiera transparencia, resistencia y creatividad.
+                </p>
+            </div>
+        </div>
+
+        <p class="acriltec-tagline">
+            Acril Tec: Claridad en cada creación.
+        </p>
+    <div class="empresa">
+        <h1>Somos Acril Tec</h1>
+        <p>Empresa Santandereana de Calidad.</p>
+    </div>
+        
+    </section>
 
 
-</body>
 
+    <!-- Contenido, cajas x 3, 2 o 4 (sebas)-->
+     <br>
+    <div class="catalogo" id="productos">
+      <h1 class="encabezado">Catálogo</h1>
+      <div class="contenedor">
+
+        <div class="fotos">
+        <img src="trofeo.jpg" alt="Trofeos en grabado laser" width=20% height=auto>
+        <h2 class="titulo">Trofeos</h2>
+        <p class="texto">Trofeos en acrílico, con grabado laser mostrando el nombre del que recibe el trofeo y su proesa.</p>
+<br>
+        </div>
+
+        <div class="fotos">
+      <img src="habladorqr.jpg" alt="Habladores" width=20% height=auto>
+      <h2 class="titulo">Habladores</h2>
+      <p class="texto">Habladores en los que puedes añadir cualquier contenido, ya sea códigos qr para pagar, menús de restaurantes,redes sociales entre otros. </p>
+    <br>   
+    </div>
+
+     
+
+
+       
+       <div class="fotos">
+   
+       <img src="aviso.jpg" alt="Avisos en acrilico con leds" width=30% height=auto>
+      <h2 class="titulo">Avisos</h2>
+      <p class="texto">Avisos para mostrar el nombre de su empresa, puede incluirles luces led para la noche, incluye un año de mantenimiento.</p>
+    <br>  
+    </div>
+      <div class="fotos">
+      <img src="urna.jpg" alt="Urnas" width=30% height=auto>
+      <h2 class="titulo">Urnas</h2>
+      <p class="texto">Urnas para dejar sugerencias o votaciones.</p>
+      <br>
+      </div>
+      </div>
+    </div>
+
+    <!-- Contacto + Footer by @Alexis  
+    -->
+
+    <!--Contenedor-->
+    <div class="container" id="contacto">
+      <!--Contenedor interno del formulario-->
+      <div class="contact-form-section">
+        <!--Formulario-->
+        <form action="#" method="POST">
+          <!--Nombre:-->
+          <div class="form-group">
+            <label for="fname">Nombre(s)</label><br />
+            <input type="text" id="fname" name="fname" required />
+          </div>
+          <!--Apellido:-->
+          <div class="form-group">
+            <label for="lname">Apellido(s)</label><br />
+            <input type="text" id="lname " name="lname" required />
+          </div>
+          <!--email-->
+          <div class="form-group">
+            <label for="email">E-Mail</label><br />
+            <input type="email" id="email" name="email" required /><br />
+          </div>
+          <!--comentario-->
+          <div class="form-group">
+            <label for="com">Comentarios:</label><br />
+            <textarea name="com" id="com" rows="5"></textarea>
+          </div>
+          <!--Submit-->
+          <input type="submit" value="Enviar" />
+        </form>
+      </div>
+    </div>
+
+    <!--Sección del mapa-->
+    <div class="map-section">
+      <h2>Nuestra ubicación</h2>
+      <!--Contenedor del mapa-->
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!4v1748641106520!6m8!1m7!1s2R_o1MdD3vgslsraAwUllQ!2m2!1d7.112100757204255!2d-73.1222353679824!3f265.01!4f-12.700000000000003!5f0.7820865974627469"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+      <p>&copy; 2025 AcrilTec Diseños. Todos los derechos reservados.</p>
+      <p>Tu diseño, nuestra pasión. Hecho con ❤️ en Bucaramanga, Santander.</p>
+    </footer>
+  </body>
 </html>
